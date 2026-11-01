@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="373da3c4-e09f-4bfd-a570-8bb57e53d379" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pso_td3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adaptive_discretizer1/adaptive_discretizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_10.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_100.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_110.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_120.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_130.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_140.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_150.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_160.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_170.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_180.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_190.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_20.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_200.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_210.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_220.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_230.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_240.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_250.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_260.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_270.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_280.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_290.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_30.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_300.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_40.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_50.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_60.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_70.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_80.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_90.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config1/offline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drl/actor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drl/critic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drl/replay_buffer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drl/td3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/fitness.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/fixed_env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/map_env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/path_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_pso.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pso/particle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pso/swarm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pso1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pso_pure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result_model/td3_finals_actor.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result_model/td3_finals_critic1.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result_model/td3_finals_critic2.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/run_withbasemodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_pso_td3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_td3_pso.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train-plan/TT_structure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train-plan/ein.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train-plan/plan_with_obstacleconstraint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train-plan/python" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train-plan/train_TT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train-plan/trajectory_dataset.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trainer/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trajectory_dataset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trajectory_dataset.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/visualization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils2/Progress.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils2/Timer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils2/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils2/dicretization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils2/git_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils2/serialization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils2/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils2/training.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3BK8to1poBuhE33DLm2IAAjUISq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.A.executor&quot;: &quot;Run&quot;,
+    &quot;Python.actor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.adaptive_discretizer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.config.executor&quot;: &quot;Run&quot;,
+    &quot;Python.critic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fitness.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fixed_env.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_pso.executor&quot;: &quot;Run&quot;,
+    &quot;Python.map_env.executor&quot;: &quot;Run&quot;,
+    &quot;Python.particle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.picture.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plan_with_obstacleconstraint.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pso_pure.executor&quot;: &quot;Run&quot;,
+    &quot;Python.replay_buffer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_withbasemodel.executor&quot;: &quot;Run&quot;,
+    &quot;Python.swarm.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_pso_td3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_td3_pso.executor&quot;: &quot;Run&quot;,
+    &quot;Python.train.executor&quot;: &quot;Run&quot;,
+    &quot;Python.train_TT.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/l'x/Documents/New project&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\BaiduNetdiskDownload\pso_td3\train-plan" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main_pso" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pso_td3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\BaiduNetdiskDownload\pso_td3\main_pso.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="373da3c4-e09f-4bfd-a570-8bb57e53d379" name="更改" comment="" />
+      <created>1774226619086</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774226619086</updated>
+    </task>
+    <servers />
+  </component>
+</project>
