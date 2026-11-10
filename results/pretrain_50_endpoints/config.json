@@ -1,0 +1,172 @@
+{
+  "args": {
+    "episodes": 50,
+    "train_iters": 100,
+    "eval_iters": 50,
+    "eval_every": 10,
+    "eval_after_episodes": 10,
+    "eval_trials": 4,
+    "train_map_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "eval_map_seeds": [
+      1000,
+      1001,
+      1002,
+      1003,
+      1004
+    ],
+    "test_map_seeds": [
+      3000,
+      3001,
+      3002,
+      3003,
+      3004,
+      3005,
+      3006,
+      3007,
+      3008,
+      3009,
+      3010,
+      3011,
+      3012,
+      3013,
+      3014,
+      3015,
+      3016,
+      3017,
+      3018,
+      3019
+    ],
+    "validation_cases": null,
+    "particles": 150,
+    "points": 10,
+    "v_max": 2.0,
+    "seed": 0,
+    "warmup_iters": 1000,
+    "updates_per_iter": 4,
+    "batch_size": 256,
+    "replay_size": 1000000,
+    "actor_lr": 0.0001,
+    "critic_lr": 0.0003,
+    "gamma": 0.97,
+    "reward_pbest": 5.0,
+    "tau": 0.005,
+    "expl_noise": [
+      0.2,
+      0.05
+    ],
+    "expl_decay_iters": 10000.0,
+    "device": "cpu",
+    "threads": 1,
+    "out": "results/pretrain_50_endpoints",
+    "dry_run": false
+  },
+  "spec": {
+    "state_schema": "compact11_distances_worst_depth_v2",
+    "state_names": [
+      "gap_pbest",
+      "gap_gbest",
+      "fitness",
+      "velocity_pbest_cos",
+      "velocity_gbest_cos",
+      "velocity_turn_cos",
+      "penetration",
+      "collide",
+      "speed_rms",
+      "distance_pbest",
+      "distance_gbest"
+    ],
+    "fitness": "0.5*length+0.2*(sum_turn+max_turn)+100*boundary_squared+40*H",
+    "penetration_weight": 40.0,
+    "start": [
+      17.5,
+      15.5
+    ],
+    "goal": [
+      2,
+      3
+    ],
+    "bounds": [
+      0.0,
+      20.0
+    ],
+    "action_low": [
+      0.4,
+      1.0,
+      1.0
+    ],
+    "action_high": [
+      0.9,
+      2.0,
+      2.0
+    ],
+    "endpoints": [
+      {
+        "name": "diagonal_main",
+        "start": [
+          0.0,
+          0.0
+        ],
+        "goal": [
+          20.0,
+          20.0
+        ]
+      },
+      {
+        "name": "diagonal_anti",
+        "start": [
+          0.0,
+          20.0
+        ],
+        "goal": [
+          20.0,
+          0.0
+        ]
+      },
+      {
+        "name": "horizontal",
+        "start": [
+          1.2,
+          10.0
+        ],
+        "goal": [
+          18.8,
+          10.0
+        ]
+      },
+      {
+        "name": "vertical",
+        "start": [
+          10.0,
+          1.2
+        ],
+        "goal": [
+          10.0,
+          18.8
+        ]
+      }
+    ]
+  },
+  "population_randomness": "new entropy-backed RNG per episode",
+  "truncation_bootstrap": true
+}

@@ -1,23 +1,21 @@
-import torch
 import torch.nn as nn
 
 class Actor(nn.Module):
-    def __init__(self):
+    """输出 [-1, 1] 的原始动作，换算成 PSO 参数在外部完成（trainer.train.scale_action）。"""
+
+    def __init__(self, state_dim, action_dim=3, hidden=128):
         super().__init__()
         self.net = nn.Sequential(
-            nn.Linear(5,128),
+            nn.Linear(state_dim, hidden),
             nn.ReLU(),
-            nn.Linear(128,128),
+            nn.Linear(hidden, hidden),
             nn.ReLU(),
-            nn.Linear(128,3),
+            nn.Linear(hidden, action_dim),
             nn.Tanh()
         )
 
     def forward(self, x):
-        x = self.net(x)
+        return self.net(x)
 
-        w = 0.5*(x[:,0]+1)
-        c1 = x[:,1]+1
-        c2 = x[:,2]+1
-
-        return torch.stack([w,c1,c2],dim=1)
+    def pre_tanh(self, x):
+        return self.net[:-1](x)

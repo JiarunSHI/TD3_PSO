@@ -5,92 +5,86 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="373da3c4-e09f-4bfd-a570-8bb57e53d379" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pso_td3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adaptive_discretizer1/adaptive_discretizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_10.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_100.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_110.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_120.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_130.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_140.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_150.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_160.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_170.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_180.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_190.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_20.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_200.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_210.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_220.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_230.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_240.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_250.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_260.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_270.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_280.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_290.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_30.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_300.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_40.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_50.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_60.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_70.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_80.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/model_epoch_90.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config1/offline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drl/actor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drl/critic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drl/replay_buffer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drl/td3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/fitness.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/fixed_env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/map_env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/path_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_pso.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pso/particle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pso/swarm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pso1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pso_pure.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_model/td3_finals_actor.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_model/td3_finals_critic1.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_model/td3_finals_critic2.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search/array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search/core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search/sample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/run_withbasemodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_pso_td3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_td3_pso.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train-plan/TT_structure.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train-plan/ein.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train-plan/plan_with_obstacleconstraint.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train-plan/python" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train-plan/train_TT.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train-plan/trajectory_dataset.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trainer/train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trajectory_dataset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trajectory_dataset.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/visualization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils2/Progress.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils2/Timer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils2/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils2/dicretization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils2/git_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils2/serialization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils2/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils2/training.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adaptive_discretizer1/adaptive_discretizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_10.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_100.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_110.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_120.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_130.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_140.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_150.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_160.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_170.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_180.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_190.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_20.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_200.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_210.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_220.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_230.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_240.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_250.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_260.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_270.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_280.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_290.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_30.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_300.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_40.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_50.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_60.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_70.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_80.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/model_epoch_90.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config1/offline.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drl/actor.py" beforeDir="false" afterPath="$PROJECT_DIR$/drl/actor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drl/critic.py" beforeDir="false" afterPath="$PROJECT_DIR$/drl/critic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drl/replay_buffer.py" beforeDir="false" afterPath="$PROJECT_DIR$/drl/replay_buffer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drl/td3.py" beforeDir="false" afterPath="$PROJECT_DIR$/drl/td3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/fitness.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/fitness.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/fixed_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/fixed_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/map_env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_pso.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pso/particle.py" beforeDir="false" afterPath="$PROJECT_DIR$/pso/particle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pso/swarm.py" beforeDir="false" afterPath="$PROJECT_DIR$/pso/swarm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pso1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pso_pure.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_model/td3_finals_actor.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_model/td3_finals_critic1.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_model/td3_finals_critic2.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search/array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search/sample.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/run_withbasemodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_pso_td3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_td3_pso.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train-plan/TT_structure.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train-plan/ein.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train-plan/plan_with_obstacleconstraint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train-plan/python" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train-plan/train_TT.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train-plan/trajectory_dataset.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainer/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainer/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trajectory_dataset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trajectory_dataset.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/visualization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils2/Progress.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils2/Timer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils2/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils2/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils2/dicretization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils2/git_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils2/serialization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils2/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils2/training.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +138,7 @@
     &quot;Python.train.executor&quot;: &quot;Run&quot;,
     &quot;Python.train_TT.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/l'x/Documents/New project&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
