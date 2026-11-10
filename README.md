@@ -6,7 +6,7 @@ The reported run trains for 50 episodes of 100 PSO steps on maps in `[0, 20]²`,
 
 The held-out test uses the episode-40 checkpoint on map seeds 3000–3019, with 8 populations per map (160 scenarios). Each cell below compares TD3 with one baseline on the same map, the same initial population, and the same PSO random stream.
 
-paper linkV DOI: 10.1109/ICETCI68937.2026.11610733
+paper link DOI: 10.1109/ICETCI68937.2026.11610733
 ## Fitness
 
 A candidate path is scored by length, turning, boundary violation, and the deepest obstacle penetration. Lower is better.
